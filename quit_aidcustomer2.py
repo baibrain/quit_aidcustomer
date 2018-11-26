@@ -14,7 +14,7 @@ try:
     ##测试环境and '@' in table.row_values(line)[9]
 ##        conn_online=pymysql.connect(host='****',user='****',passwd='****',db='****',port=3306,charset='utf8')
     ##线上环境
-        conn_online=pymysql.connect(host='rdsc14z37q7i8pq2m79fo.mysql.rds.aliyuncs.com',user='****',passwd='****',db='****',port=3306,charset='utf8')      
+        conn_online=pymysql.connect(host='*******',user='****',passwd='****',db='****',port=3306,charset='utf8')      
         cur_online=conn_online.cursor()#获取一个游标
 ##    cur_test=conn_test.cursor()
 except  Exception as  e:
